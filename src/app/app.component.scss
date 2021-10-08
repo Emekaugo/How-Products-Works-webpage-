@@ -1,0 +1,82 @@
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.section-5,
+.section-6
+ {
+  padding: 5rem 0 0;
+  width: 100%;
+}
+
+.promise-section {
+  padding: 2.125rem 0;
+  width: 80%;
+  max-width: 38.8125rem;
+  border-radius: 1.25rem;
+  background: #fff;
+
+  &--title {
+    font-weight: 800;
+    line-height: 2.5rem;
+    color: #294872;
+    font-size: 2rem;
+  }
+
+  &--subtitle {
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    margin-bottom: 3.125rem;
+    font-weight: 600;
+    color: #000;
+  }
+
+  &--promise {
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1rem;
+  }
+}
+
+.fundraising-steps {
+  flex-direction: unset;
+  justify-content: space-between;
+  .fundraising-step {
+    width: 80%;
+    min-height: 242px;
+    max-width: 270px;
+    padding: 34px 26px;
+    border-radius: 1.25rem;
+    background: #fff;
+  }
+  .step-title {
+    font-weight: bold;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+  }
+
+  .step-description {
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+  }
+}
+
+.vertical {
+  border-left: 6px solid black;
+  height: 200px;
+  position:absolute;
+  left: 50%;
+}
+
+
+.row-flex {
+  display: flex;
+  flex-flow: row wrap;
+  }
+  .col-flex-item {
+  display: flex;
+  flex-flow: column;
+  }
+  .vertical-divider {
+  border-right: 1px solid black;
+  }
